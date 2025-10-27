@@ -4,7 +4,7 @@ pipeline {
         stage('Build') { 
             steps { 
                 echo "Build Docker Image" 
-                bat "docker build -t formapp."
+                bat "docker build -t formapp"
             } 
         } 
         stage('Run') { 
